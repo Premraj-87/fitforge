@@ -1,4 +1,8 @@
 const User = require('../models/User');
+const Progress = require('../models/Progress');
+const Leaderboard = require('../models/Leaderboard');
+const WorkoutPlan = require('../models/WorkoutPlan');
+const DietPlan = require('../models/DietPlan');
 
 // @desc    Update user profile
 // @route   PUT /api/users/profile
@@ -46,6 +50,48 @@ const updateUserProfile = async (req, res) => {
     }
 };
 
+// @desc    Reset user progress and plans
+// @route   POST /api/users/reset
+// @access  Private
+const resetUserAccount = async (req, res) => {
+    try {
+        const userId = req.user._id;
+
+        await Progress.findOneAndDelete({ userId });
+        await Leaderboard.findOneAndDelete({ userId });
+        await WorkoutPlan.deleteMany({ userId });
+        await DietPlan.deleteMany({ userId });
+
+        res.json({ message: 'User data has been successfully reset.' });
+    } catch (error) {
+        console.error("Account Reset Error:", error);
+        res.status(500).json({ message: 'Failed to reset account data.' });
+    }
+};
+
+// @desc    Delete user account entirely
+// @route   DELETE /api/users/profile
+// @access  Private
+const deleteUserAccount = async (req, res) => {
+    try {
+        const userId = req.user._id;
+
+        await Progress.findOneAndDelete({ userId });
+        await Leaderboard.findOneAndDelete({ userId });
+        await WorkoutPlan.deleteMany({ userId });
+        await DietPlan.deleteMany({ userId });
+
+        await User.findByIdAndDelete(userId);
+
+        res.json({ message: 'User account has been permanently deleted.' });
+    } catch (error) {
+        console.error("Account Deletion Error:", error);
+        res.status(500).json({ message: 'Failed to delete account.' });
+    }
+};
+
 module.exports = {
     updateUserProfile,
+    resetUserAccount,
+    deleteUserAccount
 };

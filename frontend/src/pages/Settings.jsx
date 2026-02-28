@@ -70,6 +70,34 @@ const Settings = () => {
         }
     };
 
+    const handleResetAccount = async () => {
+        if (window.confirm("Are you sure you want to completely wipe your progress and plans? This cannot be undone.")) {
+            setLoading(true);
+            setMessage({ type: '', text: '' });
+            try {
+                await api.post('/users/reset');
+                setMessage({ type: 'success', text: 'Account data successfully wiped. You may now generate new protocols.' });
+            } catch (err) {
+                setMessage({ type: 'error', text: 'Failed to reset account data.' });
+            } finally {
+                setLoading(false);
+            }
+        }
+    };
+
+    const handleDeleteAccount = async () => {
+        if (window.confirm("CRITICAL WARNING: This will permanently delete your account and all associated data. Are you sure?")) {
+            setLoading(true);
+            try {
+                await api.delete('/users/profile');
+                logout();
+            } catch (err) {
+                setMessage({ type: 'error', text: 'Failed to permanently delete account.' });
+                setLoading(false);
+            }
+        }
+    };
+
     return (
         <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in duration-500 pt-4 pb-12">
             <div className="flex justify-between items-end border-b border-slate-200 pb-6 mb-6">
@@ -178,13 +206,29 @@ const Settings = () => {
 
                     <div className="bg-white border border-red-200 p-8">
                         <h3 className="text-lg font-bold text-red-600 mb-4">System Overload</h3>
-                        <p className="text-sm text-slate-500 mb-6">Disconnect from active session or purge account data.</p>
-                        <button
-                            onClick={logout}
-                            className="w-full bg-red-50 text-red-600 border border-red-200 px-8 py-3 text-sm font-medium hover:bg-red-100 transition-colors"
-                        >
-                            Terminate Session
-                        </button>
+                        <p className="text-sm text-slate-500 mb-6">Disconnect from active session, purge progress data, or permanently delete account.</p>
+                        <div className="space-y-3">
+                            <button
+                                onClick={handleResetAccount}
+                                disabled={loading}
+                                className="w-full bg-white text-red-600 border border-red-200 px-8 py-3 text-sm font-medium hover:bg-red-50 transition-colors disabled:opacity-50"
+                            >
+                                Purge Progress Data
+                            </button>
+                            <button
+                                onClick={handleDeleteAccount}
+                                disabled={loading}
+                                className="w-full bg-red-50 text-red-600 border border-red-200 px-8 py-3 text-sm font-medium hover:bg-red-100 transition-colors disabled:opacity-50"
+                            >
+                                Terminate Account
+                            </button>
+                            <button
+                                onClick={logout}
+                                className="w-full bg-slate-900 text-white border border-slate-900 px-8 py-3 text-sm font-medium hover:bg-slate-800 transition-colors"
+                            >
+                                Disconnect Session
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
