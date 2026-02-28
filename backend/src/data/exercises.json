@@ -1,0 +1,974 @@
+[
+  {
+    "name": "Incline Dumbbell Bench Press",
+    "targetMuscle": "Chest",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/incline-dumbbell-bench-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Bench Press",
+    "targetMuscle": "Chest",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-bench-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Pullover",
+    "targetMuscle": "Chest",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-pullover.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Flys",
+    "targetMuscle": "Chest",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-flys.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Incline Bench Press",
+    "targetMuscle": "Chest",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/incline-bench-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Barbell Bench Press",
+    "targetMuscle": "Chest",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/barbell-bench-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Pec Deck",
+    "targetMuscle": "Chest",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/pec-dec.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Reverse Grip Dumbbell Bench Press",
+    "targetMuscle": "Chest",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/reverse-dumbbell-bench-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Close Grip Dumbbell Press (AKA Crush Press)",
+    "targetMuscle": "Chest",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/close-grip-dumbbell-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Incline Dumbbell Flys",
+    "targetMuscle": "Chest",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/incline-dumbbell-flys.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Standing Cable Fly",
+    "targetMuscle": "Chest",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/cable-crossovers-(mid-chest).html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Chest Dip",
+    "targetMuscle": "Chest",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/chest-dip.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "One Arm Dumbbell Row",
+    "targetMuscle": "Back",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/one-arm-dumbbell-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Bent Over Dumbbell Row",
+    "targetMuscle": "Back",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Bent Over Row",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/bent-over-barbell-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Seated Cable Row",
+    "targetMuscle": "Back",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/seated-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Neutral Grip Chest Supported Dumbbell Row",
+    "targetMuscle": "Back",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/chest-supported-dumbbell-row",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "T-Bar Row",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/bent-over-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Tripod Dumbbell Row",
+    "targetMuscle": "Back",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/tripod-dumbbell-row",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Machine Row",
+    "targetMuscle": "Back",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/machine-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Reverse Grip Bent-Over Dumbbell Row",
+    "targetMuscle": "Back",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/reverse-grip-bent-over-dumbbell-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Feet Elevated Inverted Row",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/smith-machine-bodyweight-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Machine T-Bar Row",
+    "targetMuscle": "Back",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/machine-t-bar-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Incline Bench Two Arm Dumbbell Row",
+    "targetMuscle": "Back",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/incline-bench-two-arm-dumbbell-row.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Lat Pull Down",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/lat-pull-down.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Wide Grip Pull Up",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/wide-grip-pull-up.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Close Grip Lat Pull Down",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/close-grip-pull-down.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Straight Arm Lat Pull Down",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/straight-arm-lat-pull-down.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Chin Up",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/chin-up.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Wide Grip Lat Pull Down",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/wide-grip-pull-down",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Pull Up",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/pull-up",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "V-Bar Pull Down",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/v-bar-pull-down",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Reverse Grip Lat Pull Down (Underhand)",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/reverse-grip-lat-pull-down.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "V-Bar Pull Up",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/v-bar-pull-up.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Rope Straight Arm Pull Down",
+    "targetMuscle": "Back",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/rope-straight-arm-pull-down",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Resistance Band Assisted Pull Up (From Foot)",
+    "targetMuscle": "Back",
+    "equipment": "Bands",
+    "link": "https://www.muscleandstrength.com/exercises/band-assisted-pull-up-from-foot",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "targetMuscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-lateral-raise.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Military Press (AKA Overhead Press)",
+    "targetMuscle": "Shoulders",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/military-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Bent Over Dumbbell Reverse Fly",
+    "targetMuscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-reverse-fly.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Standing Dumbbell Shoulder Press",
+    "targetMuscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/standing-dumbbell-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Seated Arnold Press",
+    "targetMuscle": "Shoulders",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/seated-arnold-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Seated Dumbbell Press",
+    "targetMuscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/seated-dumbbell-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Smith Machine Shoulder Press",
+    "targetMuscle": "Shoulders",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/smith-machine-shoulder-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Cable Face Pull",
+    "targetMuscle": "Shoulders",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/cable-face-pull",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Seated Bent Over Dumbbell Reverse Fly",
+    "targetMuscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-reverse-fly.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Seated Barbell Shoulder Press",
+    "targetMuscle": "Shoulders",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/seated-shoulder-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Seated Dumbbell Lateral Raise",
+    "targetMuscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/seated-dumbbell-lateral-raise.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Standing Dumbbell Front Raise",
+    "targetMuscle": "Shoulders",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-front-raise.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Goblet Squat",
+    "targetMuscle": "Legs",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-goblet-squat",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Barbell Back Squat",
+    "targetMuscle": "Legs",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/squat.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Squat",
+    "targetMuscle": "Legs",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-squat.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Leg Extension",
+    "targetMuscle": "Legs",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/leg-extension.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Lunge",
+    "targetMuscle": "Legs",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-lunge.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Leg Press",
+    "targetMuscle": "Legs",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/45-degree-leg-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Step Up",
+    "targetMuscle": "Legs",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-step-up.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Rear Lunge",
+    "targetMuscle": "Legs",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-rear-lunge.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "One Leg Dumbbell Squat (AKA Dumbbell Bulgarian Split Squat)",
+    "targetMuscle": "Legs",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/one-leg-dumbbell-squat-aka-bulgarian-squat.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Machine Hack Squat",
+    "targetMuscle": "Legs",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/hack-squat.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Split Squat",
+    "targetMuscle": "Legs",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-split-squat",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Frog Squat",
+    "targetMuscle": "Legs",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/frog-squat.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Stiff Leg Deadlift",
+    "targetMuscle": "Legs",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-stiff-leg-deadlift.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Deadlift",
+    "targetMuscle": "Legs",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/deadlifts.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Leg Curl",
+    "targetMuscle": "Legs",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/leg-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Romanian Deadlift (AKA RDL)",
+    "targetMuscle": "Legs",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/romanian-deadlift",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Stiff Leg Deadlift",
+    "targetMuscle": "Legs",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/stiff-leg-deadlift-aka-romanian-deadlift.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Hamstring Curl",
+    "targetMuscle": "Legs",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-hamstring-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Seated Leg Curl",
+    "targetMuscle": "Legs",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/seated-leg-curl",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Sumo Deadlift",
+    "targetMuscle": "Legs",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/sumo-deadlift",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Trap Bar Deadlift",
+    "targetMuscle": "Legs",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/trap-bar-deadlift",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Kettlebell Swing",
+    "targetMuscle": "Legs",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/kettlebell-swing",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Single Leg Curl",
+    "targetMuscle": "Legs",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/single-leg-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Exercise Ball Leg Curl (SHELC)",
+    "targetMuscle": "Legs",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/exercise-ball-hamstring-curl",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Standing Dumbbell Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/standing-dumbbell-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Standing Hammer Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/standing-hammer-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Incline Dumbbell Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/incline-dumbbell-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Standing Barbell Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/standing-barbell-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Zottman Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/zottman-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Cross Body Hammer Curl (Pinwheel Curls)",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/hammer-curl-across-the-body.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Cable Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/cable-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Concentration Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/concentration-cur.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "EZ Bar Preacher Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/ez-bar-preacher-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Barbell Preacher Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/preacher-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Cable Curl (Rope Extension)",
+    "targetMuscle": "Arms",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/rope-cable-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "EZ Bar Curl",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/ez-bar-curl.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Straight Bar Tricep Extension",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/tricep-extension.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Seated Dumbbell Tricep Extension",
+    "targetMuscle": "Arms",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/two-arm-dumbbell-extension.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Lying Dumbbell Extension",
+    "targetMuscle": "Arms",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/lying-dumbbell-extension.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Dumbbell Floor Press",
+    "targetMuscle": "Arms",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/dumbbell-floor-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "EZ Bar Skullcrusher",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/ez-bar-skullcrusher.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Rope Tricep Extension",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/rope-tricep-extension.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Tricep Dip",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/tricep-dip.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Two Arm Standing Dumbbell Extension",
+    "targetMuscle": "Arms",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/two-arm-standing-dumbbell-extension.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Bent Over Dumbbell Tricep Kickback",
+    "targetMuscle": "Arms",
+    "equipment": "Dumbbell",
+    "link": "https://www.muscleandstrength.com/exercises/bent-over-dumbbell-kickback.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Close Grip Bench Press",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/close-grip-bench-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Lying Barbell Tricep Extension (Skull Crusher)",
+    "targetMuscle": "Arms",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/lying-tricep-extension.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "French Press",
+    "targetMuscle": "Arms",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/french-press.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Lying Floor Leg Raise",
+    "targetMuscle": "Core",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/lying-floor-leg-raise.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Cable Crunch",
+    "targetMuscle": "Core",
+    "equipment": "Machine/Cable",
+    "link": "https://www.muscleandstrength.com/exercises/cable-crunch.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Weighted Crunch",
+    "targetMuscle": "Core",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/weighted-crunch.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Plank",
+    "targetMuscle": "Core",
+    "equipment": "Bodyweight",
+    "link": "https://www.muscleandstrength.com/exercises/hover.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Sit Up",
+    "targetMuscle": "Core",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/sit-up.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Hanging Leg Raise",
+    "targetMuscle": "Core",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/hanging-leg-raise.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Ab Crunch",
+    "targetMuscle": "Core",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/ab-crunch",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Side Plank",
+    "targetMuscle": "Core",
+    "equipment": "Bodyweight",
+    "link": "https://www.muscleandstrength.com/exercises/side-hover.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Russian Twist",
+    "targetMuscle": "Core",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/russian-twist.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Rotating Mountain Climber",
+    "targetMuscle": "Core",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/rotating-mountain-climber",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Decline Bench Sit Up",
+    "targetMuscle": "Core",
+    "equipment": "Other",
+    "link": "https://www.muscleandstrength.com/exercises/decline-situp.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  },
+  {
+    "name": "Barbell Abdominal Rollouts",
+    "targetMuscle": "Core",
+    "equipment": "Barbell",
+    "link": "https://www.muscleandstrength.com/exercises/abdominal-barbell-rollouts.html",
+    "defaultSets": 3,
+    "defaultReps": "8-12",
+    "rest": "60s-90s"
+  }
+]

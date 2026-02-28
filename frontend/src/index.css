@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Removed proprietary tailwind @theme and @plugin calls to fix lint errors */
+:root {
+  --color-accent-green: #22c55e;
+  --color-accent-orange: #f97316;
+  --color-accent-red: #ef4444;
+}
+
+@layer base {
+  body {
+    background-color: #f8fafc;
+    /* slate-50 */
+    color: #0f172a;
+    /* slate-900 */
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: -0.025em;
+    font-weight: 600;
+  }
+}
+
+@layer utilities {
+  .minimal-card {
+    background-color: #ffffff;
+    /* white */
+    border: 1px solid #e2e8f0;
+    /* slate-200 */
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .premium-shadow {
+    box-shadow: none !important;
+  }
+}
+
+/* Custom Scrollbar - Soft Light */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  /* slate-300 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+  /* slate-400 */
+}
