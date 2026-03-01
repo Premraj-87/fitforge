@@ -13,9 +13,16 @@ const PublicNutrition = () => {
 
     useEffect(() => {
         const fetchFoods = async () => {
+            const cachedData = localStorage.getItem('cache_public_nutrition');
+            if (cachedData) {
+                setFoods(JSON.parse(cachedData));
+                setLoading(false);
+            }
+
             try {
                 const res = await api.get('/data/nutrition');
                 setFoods(res.data);
+                localStorage.setItem('cache_public_nutrition', JSON.stringify(res.data));
             } catch (err) {
                 console.error("Failed to fetch nutrition data", err);
             } finally {

@@ -21,9 +21,16 @@ const ProgressTracker = () => {
 
     useEffect(() => {
         const fetchProgress = async () => {
+            const cachedProgress = localStorage.getItem('cache_progress');
+            if (cachedProgress) {
+                setProgress(JSON.parse(cachedProgress));
+                setLoading(false);
+            }
+
             try {
                 const res = await api.get('/progress');
                 setProgress(res.data);
+                localStorage.setItem('cache_progress', JSON.stringify(res.data));
             } catch (err) {
                 console.error('Failed to load progress', err);
             } finally {

@@ -52,9 +52,16 @@ const DietPlan = () => {
 
     useEffect(() => {
         const fetchPlans = async () => {
+            const cachedPlans = localStorage.getItem('cache_plans');
+            if (cachedPlans) {
+                setDiet(JSON.parse(cachedPlans).dietPlan);
+                setLoading(false);
+            }
+
             try {
                 const res = await api.get('/plans');
                 setDiet(res.data.dietPlan);
+                localStorage.setItem('cache_plans', JSON.stringify(res.data));
             } catch (err) {
                 console.error('Failed to load plans', err);
             } finally {

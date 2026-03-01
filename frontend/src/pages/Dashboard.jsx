@@ -31,6 +31,14 @@ const Dashboard = () => {
 
     useEffect(() => {
         const fetchDashboardData = async () => {
+            const cachedProgress = localStorage.getItem('cache_progress');
+            const cachedPlans = localStorage.getItem('cache_plans');
+            if (cachedProgress && cachedPlans) {
+                setProgress(JSON.parse(cachedProgress));
+                setPlans(JSON.parse(cachedPlans));
+                setLoading(false);
+            }
+
             try {
                 const [progressRes, plansRes] = await Promise.all([
                     api.get('/progress'),
@@ -38,6 +46,8 @@ const Dashboard = () => {
                 ]);
                 setProgress(progressRes.data);
                 setPlans(plansRes.data);
+                localStorage.setItem('cache_progress', JSON.stringify(progressRes.data));
+                localStorage.setItem('cache_plans', JSON.stringify(plansRes.data));
             } catch (err) {
                 console.error('Failed to load dashboard data', err);
             } finally {

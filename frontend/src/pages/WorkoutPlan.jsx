@@ -11,9 +11,16 @@ const WorkoutPlan = () => {
 
     useEffect(() => {
         const fetchPlans = async () => {
+            const cachedPlans = localStorage.getItem('cache_plans');
+            if (cachedPlans) {
+                setWorkout(JSON.parse(cachedPlans).workoutPlan);
+                setLoading(false);
+            }
+
             try {
                 const res = await api.get('/plans');
                 setWorkout(res.data.workoutPlan);
+                localStorage.setItem('cache_plans', JSON.stringify(res.data));
             } catch (err) {
                 console.error('Failed to load plans', err);
             } finally {

@@ -16,16 +16,23 @@ const Leaderboard = () => {
 
     useEffect(() => {
         const fetchLeaderboard = async () => {
+            const cachedLeaderboard = localStorage.getItem('cache_leaderboard');
+            if (cachedLeaderboard) {
+                setLeaders(JSON.parse(cachedLeaderboard));
+                setLoading(false);
+            }
+
             try {
                 const res = await api.get('/leaderboard');
                 if (res.data.length > 0) {
                     setLeaders(res.data);
+                    localStorage.setItem('cache_leaderboard', JSON.stringify(res.data));
                 } else {
                     setLeaders(mockLeaders);
                 }
             } catch (err) {
                 console.error('Failed to load leaderboard', err);
-                setLeaders(mockLeaders);
+                if (!cachedLeaderboard) setLeaders(mockLeaders);
             } finally {
                 setLoading(false);
             }

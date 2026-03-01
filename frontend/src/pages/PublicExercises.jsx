@@ -13,9 +13,16 @@ const PublicExercises = () => {
 
     useEffect(() => {
         const fetchExercises = async () => {
+            const cachedData = localStorage.getItem('cache_public_exercises');
+            if (cachedData) {
+                setExercises(JSON.parse(cachedData));
+                setLoading(false);
+            }
+
             try {
                 const res = await api.get('/data/exercises');
                 setExercises(res.data);
+                localStorage.setItem('cache_public_exercises', JSON.stringify(res.data));
             } catch (err) {
                 console.error("Failed to fetch exercises", err);
             } finally {
